@@ -1,6 +1,6 @@
 /****** General ***********/
 * {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 :root {
 	--main-color:#9356DC ;
@@ -123,12 +123,13 @@ h2 {
 	left: -28px;
 }
 .heart{
-    width: 60px;
-    height: 60px;
-    background: #9356DC;
-    border-radius: 70%;
+    margin-left:398px ;
 	position: absolute;
-	left: -28px;
+	
+}
+.heart1{
+	margin-left:498px ;
+	position: absolute;
 }
 .text-circle {
 	position: absolute;
