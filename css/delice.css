@@ -20,6 +20,11 @@
 	margin-left: 150px;
 	align-items: center;
 }
+.bordure{
+	width: 100px;
+	border-bottom: 4px solid #99E2D0;
+	border-top: 20px;
+}
 .shrikhand-regular {
 	font-family: "Shrikhand", serif;
 	font-weight: 400;
@@ -66,10 +71,7 @@ h2 {
 	font-size: 40px;
 	color: white;
 }
-.bordure{
-	width: 20px;
-	border-bottom: #99E2D0;
-}
+
 .titre {
 	font-size: 45px;
 	font-weight: extra-light(200);

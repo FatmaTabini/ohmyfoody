@@ -20,6 +20,11 @@
 	margin-left: 150px;
 	align-items: center;
 }
+.bordure{
+	width: 100px;
+	border-bottom: 4px solid #99E2D0;
+	border-top: 20px;
+}
 .shrikhand-regular {
 	font-family: "Shrikhand", serif;
 	font-weight: 400;
@@ -66,17 +71,12 @@ h2 {
 	font-size: 40px;
 	color: white;
 }
-.bordure{
-	width: 20px;
-	border-bottom: #99E2D0;
-}
 .titre {
 	font-size: 45px;
 	font-weight: extra-light(200);
 	margin-top: 60px;
 	margin-left: 20px;
 	text-decoration-line: underline #99E2D0;
-
 }
 .footer {
 	width: 100%;
@@ -100,19 +100,19 @@ h2 {
 	color: white;
 	font-size: 15px;
 }
-  .palette img{
+.palette img{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-  }
-  .palette-card{
+}
+.palette-card{
 	width: 100%;
 	height: 100%;
 	border-radius: 45px 45px 0px 0px;
 	background-color: #F6F6F6;
 	position: static;
-  }
-  .button {
+}
+.button {
     width: 50%;
 	height: 100px;	
 	display: flex;
@@ -149,8 +149,7 @@ h2 {
 	font-weight: bold;
 	align-content: center;
 	align-items: center;
-	margin-left: 20px;
-	
+	margin-left: 20px;	
 }
 .carte-content{
 	width: 80%;
@@ -189,13 +188,11 @@ h2 {
     text-align: left;
 	margin-left: 20px;
 	position: relative;
-  }
-  .heart{
-	margin-left:255px ;
+}
+.heart{
 	border: 0.05em black;
-	background: rgb(255,121,218);
-background: linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 100%);
-  }
+	margin-left: 370px;
+}
 .titre-plat{
 	font-size: 35px;
 	line-height: 18.75px;
@@ -204,6 +201,6 @@ background: linear-gradient(180deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 1
 	font-family: "Roboto", serif;
 	font-weight: 300;
 	font-style: normal;
-  }
+}
 
   

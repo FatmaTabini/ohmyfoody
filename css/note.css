@@ -34,6 +34,11 @@ h2 {
 .BackGris {
 	background-color: #F2F2F2;
 }
+.bordure{
+	width: 100px;
+	border-bottom: 4px solid #99E2D0;
+	border-top: 20px;
+}
 .text {
 	width: 100%;
 	display: flex;
@@ -66,10 +71,7 @@ h2 {
 	font-size: 40px;
 	color: white;
 }
-.bordure{
-	width: 20px;
-	border-bottom: #99E2D0;
-}
+
 .titre {
 	font-size: 45px;
 	font-weight: extra-light(200);
@@ -110,7 +112,6 @@ h2 {
 	height: 100%;
 	border-radius: 45px 45px 0px 0px;
 	background-color: #F6F6F6;
-	position: static;
   }
   .button {
     width: 50%;
@@ -134,7 +135,7 @@ h2 {
 }
 .positioned{
 	position: relative;
-	top: -105px;
+	top: -383px;
 }
 .carte{
     width: 95%;

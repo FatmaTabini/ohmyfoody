@@ -7,7 +7,23 @@
 	--main-bg-color:#FF79DA;
 	--filter-bg-color:#99E2D0;
 }
-	
+a {
+	color: black;
+	text-decoration: none !important;
+	/* Supprime le soulignement */
+}
+a:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(147,86,220,1)), to(rgba(255,121,218,1)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none !important;
+	/* Supprime le soulignement */
+}	
+.heart-enchanté :active{
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(147,86,220,1)), to(rgba(255,121,218,1)));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 .main-container {
 	margin-top: 100px;
 	max-width: 767px;
@@ -26,14 +42,6 @@
 	font-weight: 400;
 	font-style: normal;
 	font-size: 28px;
-}
-
-
-p {
-}
-h1 {
-}
-h2 {
 }
 .BackGris {
 	background-color: #F2F2F2;
@@ -124,9 +132,6 @@ h2 {
 }
 .heart-enchanté{
 	margin-left:443px ;
-	background: -webkit-gradient(linear, left top, left bottom, from(rgba(147,86,220,1)), to(rgba(255,121,218,1)));
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 }
 .heart1{
 	margin-left:434px ;
@@ -199,7 +204,7 @@ h2 {
 	display: flex;
 	width: 95%;
     height: 480px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 40px 40px 40px 40px;
     background-color: #FFFFFF;
 	flex-direction: column;
 	margin-top: 50px;
@@ -223,7 +228,6 @@ h2 {
 	margin-left: 30px;
 	font-size: 45px;
 }
-
 .card-subtitle {
 	width: 247px;
     height: 20px;
@@ -298,4 +302,18 @@ h2 {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-  }
+}
+/****** Media queries ***********/
+/* Medium devices (desktop, less/equal than 1024px) */
+@media (max-width: 1024px) {
+	.box-F {
+		width: 100%;
+		margin-top: 50px;
+		display: flex;
+		height: 200px;
+		flex-direction: column;
+		flex: 1 0 100px;
+		margin-left: 30%;
+	}
+
+}
